@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main() {
-	int num;
+	int input;
 	printf("숫자를 입력하세요 -> ");
-	scanf("%d", &num);
-	printf("8진수 : %o\n", num);
-	printf("16진수 : %#x\n", num);
+	scanf("%d", &input);
+	printf("8진수 : %o\n", input);
+	printf("16진수 : %#x\n", input);
 }
